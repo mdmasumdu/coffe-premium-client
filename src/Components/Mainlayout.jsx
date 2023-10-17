@@ -3,7 +3,7 @@ import Nav from "./Nav";
 
 const Mainlayout = () => {
     return (
-        <div>
+        <div className="container mx-auto">
             <Nav></Nav>
             <Outlet></Outlet>
         </div>
